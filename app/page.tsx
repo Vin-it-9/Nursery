@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Categories from "@/components/Categories";
 import CTASection from "@/components/CTASection";
 import AboutNursery from "@/components/AboutNursery";
@@ -10,6 +11,16 @@ import PlantPreview from "@/components/PlantPreview";
 import Testimonials from "@/components/Testimonials";
 import VisitUs from "@/components/VisitUs";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import { siteUrl } from "@/data/site";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    url: siteUrl,
+  },
+};
 
 // Homepage composes static sections only.
 export default function HomePage() {
@@ -24,7 +35,7 @@ export default function HomePage() {
         <AboutNursery />
         {/*<Testimonials />*/}
         <HowItWorks />
-        <CTASection />
+        {/*<CTASection />*/}
         <VisitUs />
       </main>
       <FloatingWhatsApp />

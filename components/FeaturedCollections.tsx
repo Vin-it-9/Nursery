@@ -8,7 +8,7 @@ const collections = [
   {
     title: "Indoor Plants",
     description: "Calm greenery for living rooms, desks, and bright corners.",
-    image: "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1592150621744-aca64f48394a?q=80&w=1191&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     href: "/plants?category=Indoor%20Plants",
   },
   {

@@ -1,5 +1,19 @@
+import type { Metadata } from "next";
 import PlantCatalog from "@/components/PlantCatalog";
 import { categories, plants } from "@/data/plants";
+import { siteUrl } from "@/data/site";
+
+export const metadata: Metadata = {
+  title: "Plants in Satara | Indoor, Outdoor & Flowering Plants",
+  description:
+    "Browse indoor plants, outdoor plants, succulents, flowering plants, and more from Krushna Nursery Satara. Explore plant details and care guidance.",
+  alternates: {
+    canonical: "/plants",
+  },
+  openGraph: {
+    url: `${siteUrl}/plants`,
+  },
+};
 
 // Plants page with premium visual design and layout
 export default function PlantsPage() {
@@ -23,5 +37,3 @@ export default function PlantsPage() {
     </main>
   );
 }
-
-

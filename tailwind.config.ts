@@ -9,8 +9,29 @@ const config: Config = {
     "./data/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      xs: '480px',
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1536px',
+    },
     extend: {
       colors: {
+        leaf: {
+          50: '#f2f8f3',
+          100: '#e3f0e5',
+          200: '#c6dfcb',
+          300: '#9fc6a8',
+          400: '#75aa82',
+          500: '#4f8e61',
+          600: '#3f7b52',
+          700: '#326442',
+          800: '#275136',
+          900: '#1a3d26',
+          950: '#102719',
+        },
         forest: {
           50: '#f2f6f3',
           100: '#e0ebe3',

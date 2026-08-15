@@ -15,7 +15,7 @@ export default function AboutNursery() {
       {/* ── LEFT: Image ── */}
       <div className="group relative order-2 min-h-[22rem] overflow-hidden rounded-[1.75rem] border border-[rgba(46,125,70,0.09)] bg-[#edf7ef] shadow-elevated lg:order-1 sm:min-h-[28rem]">
         <Image
-          src="https://images.unsplash.com/photo-1463320726281-696a485928c7?auto=format&fit=crop&w=1600&q=80"
+          src="https://plus.unsplash.com/premium_photo-1683134371956-256b6eae334e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Nursery owner arranging healthy potted plants"
           fill
           sizes="(min-width: 1024px) 520px, 100vw"

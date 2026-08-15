@@ -6,6 +6,7 @@ import PlantGallery from "@/components/PlantGallery";
 import PlantInfo from "@/components/PlantInfo";
 import RelatedPlants from "@/components/RelatedPlants";
 import { getPlantBySlug, getRelatedPlants, plants } from "@/data/plants";
+import { siteUrl } from "@/data/site";
 
 type PlantDetailPageProps = {
   params: Promise<{
@@ -34,6 +35,14 @@ export async function generateMetadata({
   return {
     title: `${plant.name} | Krushna Nursery satara`,
     description: plant.shortDescription,
+    alternates: {
+      canonical: `/plants/${plant.slug}`,
+    },
+    openGraph: {
+      url: `${siteUrl}/plants/${plant.slug}`,
+      title: `${plant.name} | Krushna Nursery satara`,
+      description: plant.shortDescription,
+    },
   };
 }
 

@@ -4,11 +4,41 @@ import { Flower2, Home, Package, Sprout, TreePine, ArrowRight } from "lucide-rea
 import SectionHeader from "@/components/SectionHeader";
 
 const categories = [
-  { name: "Indoor Plants",    image: "https://images.unsplash.com/photo-1614594975525-e45190c55d0b?auto=format&fit=crop&w=1200&q=80", icon: Home,      href: "/plants?category=Indoor%20Plants"    },
-  { name: "Outdoor Plants",   image: "/images/img3.jpg", icon: TreePine,  href: "/plants?category=Outdoor%20Plants"   },
-  { name: "Succulents",       image: "https://images.unsplash.com/photo-1512428813834-c702c7702b78?auto=format&fit=crop&w=1200&q=80", icon: Sprout,    href: "/plants?category=Succulents"         },
-  { name: "Flowering Plants", image: "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1200&q=80", icon: Flower2,   href: "/plants?category=Flowering%20Plants" },
-  { name: "Pots",             image: "/images/img6.jpg", icon: Package,   href: "/plants"                             },
+    {
+        name: "Indoor Plants",
+        image:
+            "https://images.unsplash.com/photo-1614594975525-e45190c55d0b?auto=format&fit=crop&w=1200&q=85",
+        icon: Home,
+        href: "/plants?category=Indoor%20Plants",
+    },
+    {
+        name: "Outdoor Plants",
+        image:
+            "https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=1200&q=85",
+        icon: TreePine,
+        href: "/plants?category=Outdoor%20Plants",
+    },
+    {
+        name: "Succulents",
+        image:
+            "https://plus.unsplash.com/premium_photo-1733248812856-971b4dbb4614?q=80&w=686&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        icon: Sprout,
+        href: "/plants?category=Succulents",
+    },
+    {
+        name: "Flowering Plants",
+        image:
+            "https://images.unsplash.com/photo-1562690868-60bbe7293e94?q=80&w=718&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        icon: Flower2,
+        href: "/plants?category=Flowering%20Plants",
+    },
+    {
+        name: "Pots",
+        image:
+            "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=1200&q=85",
+        icon: Package,
+        href: "/plants",
+    },
 ];
 
 export default function Categories() {

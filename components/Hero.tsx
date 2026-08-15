@@ -70,7 +70,7 @@ export default function Hero() {
           {/* Main image card */}
           <div className="group relative overflow-hidden rounded-[2rem] border border-[rgba(46,125,70,0.08)] bg-white/90 shadow-elevated sm:min-h-[30rem]">
             <Image
-              src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1600&q=85"
+              src="https://plus.unsplash.com/premium_photo-1679765929074-a05be727f0fb?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Healthy green nursery plants arranged in pots"
               fill
               priority
