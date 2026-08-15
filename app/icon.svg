@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>Krushna Nursery</title>
+  <rect width="64" height="64" rx="16" fill="#1a3d26"/>
+  <path d="M31.8 50.5c-.6-9.5 1.1-17.8 6-24.8 4.1-5.8 9.6-8.8 15.1-9.8.2 7.2-2 13.2-6.3 17.8-3.8 4.1-8.6 6.4-14.8 7.4" fill="#75aa82"/>
+  <path d="M31.2 48.8c.1-8.2-2.1-14.9-6.7-20.2-3.6-4.1-8.1-6.2-12.9-6.8-.2 6.2 1.7 11.4 5.5 15.3 3.4 3.5 7.8 5.3 13.8 6.1" fill="#c6dfcb"/>
+  <path d="M31.8 51V30.5" fill="none" stroke="#f2f8f3" stroke-linecap="round" stroke-width="3.5"/>
+</svg>
